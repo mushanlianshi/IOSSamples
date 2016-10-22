@@ -7,9 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AudioToolbox/AudioToolbox.h>
+#import <AVFoundation/AVFoundation.h>
+@interface ViewController : UIViewController{
+    NSTimer *timer;
+    UIButton *button;
+}
 
-@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *tLabel;
+- (IBAction)tButton:(id)sender;
 
 
+
+@property (weak, nonatomic) IBOutlet UILabel *innerLabel;
+@property (weak, nonatomic) IBOutlet UITextField *label;
+@property (nonatomic,retain)  UIButton *btn;
+@property (nonatomic,retain)  UIImageView  *image;
+@property (nonatomic,retain)  UIImageView  *image114;
+@property (nonatomic,retain)  UIButton     *button;
+@property (nonatomic,retain) NSTimer *timer;
+//@property (nonatomic,retain) IBAction UIButton *b;
 @end
 

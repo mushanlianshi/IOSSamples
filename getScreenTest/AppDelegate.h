@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import <AddressBook/AddressBook.h>
+#import <ImageIO/ImageIO.h>
+#import <CoreText/CoreText.h>
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
